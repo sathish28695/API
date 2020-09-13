@@ -27,4 +27,12 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* Endpoints list
+
+	post '/login' - login functionality
+
+	get '/list_products' - List products
+
+	post '/:user_id/add_product' - Add product to the user cart, User id needs to be passed.
+
+	get '/:user_id/cart' - Get the cart for the user, User id needs to be passed.
